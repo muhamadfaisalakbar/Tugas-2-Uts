@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Layout Frame</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+  </head>
+    <frameset  cols="100%" rows="25%,5%,*,5%" frameborder="no">
+      <frame src="header.html">
+      <frame background="gray" src="navigation.html">
+        <frameset cols="25%,*">
+          <frame src="sidebar.html">
+          <frame src="content.html" name="contentFrame">
+        </frameset>
+        <frame src="footer.html">
+    </frameset>
+</html>
